@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Manrope' sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.order-success {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 3.5pc;
+    gap: 1pc;
+}
+
+h1{
+    font-size: 1.5pc;
+    font-weight: 800;
+}
+
+.order-success-bio {
+    width: 30pc;
+    font-weight: 500;
+    color: grey;
+}
+
+.order-summary{
+    padding: 3pc;
+}
+
+caption{
+    padding: 1pc;
+    box-shadow: 5px 3px 3px 0px #E2FDF1;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td{
+    width: 20pc;
+    padding: 1pc;
+    text-align: left;  
+}
+
+tr{
+    display: flex;     
+    align-items: center;
+    box-shadow: 5px 3px 3px 0px #E2FDF1;
+    transition: 0.3s ease;
+}
+
+tr:hover,
+caption:hover{
+    background-color: #E2FDF1;
+    font-weight: 900;
+    transform: translateY(-3px) scale(1.03);
+}
